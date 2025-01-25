@@ -1,3 +1,21 @@
-body {
-    background-color: blue;
+* {
+    margin: 0; /*Sätter marginalerna till 0*/
+}
+
+body  {font-family: Tahoma, sans-serif; } /*teckensnitt, som försöker använda Tahoma först*/
+
+h1 { /*Allmänna regler för h1*/
+    font-size: 2em;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  
+}
+P { /*Allmänna regler för p*/
+    font-size: 1.3em;
+    line-height: 150%;
+  
+}
+h2 { /*Allmänna regler för h2*/
+    font-size: 1.8em;
 }
