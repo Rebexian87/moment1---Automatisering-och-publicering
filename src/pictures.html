@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bilder</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="js/app.js"></script>
 </head>
 <body>
+    <picture>
+        <source srcset="img.jpg?as=avif&width=800" type="image/avif" />
+        <source srcset="img.jpg?as=webp&width=800" type="image/webp" />
+        <img src="img.jpg?width=400" alt="vad bilden föreställer"/>
+
+
+    </picture>
     
 </body>
 </html>
