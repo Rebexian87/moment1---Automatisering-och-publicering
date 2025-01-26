@@ -2,7 +2,7 @@
     margin: 0; /*Sätter marginalerna till 0*/
 }
 
-body  {font-family: Tahoma, sans-serif; } /*teckensnitt, som försöker använda Tahoma först*/
+body  {font-family: Tahoma, Verdana, sans-serif; } /*teckensnitt, som försöker använda Tahoma först*/
 
 h1 { /*Allmänna regler för h1*/
     font-size: 2em;
@@ -19,3 +19,26 @@ P { /*Allmänna regler för p*/
 h2 { /*Allmänna regler för h2*/
     font-size: 1.8em;
 }
+
+
+
+.headmenu {
+  
+    font-size: 1.05em;
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+    
+ list-style-type: none; margin: 0; padding: 0;}
+
+
+.headmenu > li:hover > ul {display: block;}
+.headmenu a {text-decoration: none;}
+
+.liheadmenu {
+display: inline-block; position: relative; padding: 8px;
+}
+
+
+
+
