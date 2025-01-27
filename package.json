@@ -1,7 +1,8 @@
 {
   "name": "moment1---automatisering-och-publicering",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "1.0.0",
-  "source": "src/index.html",
+  "source": "src/index.html", 
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
