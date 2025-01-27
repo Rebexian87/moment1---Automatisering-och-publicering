@@ -24,7 +24,7 @@ h2 { /*Allmänna regler för h2*/
 }
 
 
-
+/*huvudmeny*/
 .headmenu {
   
     font-size: 1.05em;
@@ -49,7 +49,7 @@ display: inline-block; position: relative; padding: 8px;
     grid-template-rows: repeat(16, auto);
      max-width: 1512px;} 
 
-
+/*nedan följer bland annat griddplacering*/
 .position1 {
 grid-area: 1/1/2/-1;
 margin-left: 2%;
@@ -141,7 +141,7 @@ grid-area: 2/1/3/-1;
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) { /*media queries för max-bredd 800 px på skärmen*/
 
     .position3{
         grid-area: 3/1/4/-1; 
@@ -160,7 +160,7 @@ grid-area: 2/1/3/-1;
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {  /*media queries för max-bredd 1000 px på skärmen*/
 
     .position3Pict {
 
@@ -201,7 +201,7 @@ grid-area: 2/1/3/-1;
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {  /*media queries för max-bredd 700 px på skärmen*/
 
     .position3Pict {
 
